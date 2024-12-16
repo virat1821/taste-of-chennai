@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Official Blog</title>
+    <link rel="stylesheet" href="./css/blog.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLAa8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand">
+                <img src="./images/dark-logo.png" alt="" srcset="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" aria-current="page" href="https://2iim.com/">Home</a>
+                    </li>
+                    <!-- <li class="nav-item">
+            <a class="nav-link fs-5" href="" target="_blank">Live online</a>
+          </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="https://online.2iim.com/aboutus.shtml" target="_blank">About
+                            Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="canvas">
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <h1 class="fs-5"><span class="span-ani">
+                    Welcome to 2IIM
+                  </span>your trusted partner in cracking the CAT exam with confidence. With expert guidance, personalized strategies, and a proven track record, we empower aspirants to achieve their MBA dreams. Let's embark on your journey to success together!</h1>
+            </div>
+        </div>
+        <!-- <div class="cube-wrapper">
+            <div class="cube">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side left"></div>
+                <div class="side right"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+            </div>
+        </div>
+
+        <button class="toggle-button" onclick="toggleRotation()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="play-icon"
+                style="display: none;">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pause-icon">
+                <rect x="6" y="4" width="4" height="16"></rect>
+                <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+        </button> -->
+    </div>
+
+    <div class="container p-5">
+
+
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center mt-2">
+                    <div class="card">
+                        <img class="img-fluid" src="./images/CAT.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span class="my-2 blog-title-cat">CAT</span>
+                            <h5 class="card-title mt-2">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p>11-12-2024</p>
+                            <a href="./cat/index.shtml" class="btn btn-primary">Click to read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center mt-2">
+                    <div class="card">
+                        <img class="img-fluid" src="./images/CAT.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span class="my-2 blog-title-omet">OMETs</span>
+                            <h5 class="card-title mt-2">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="./cat/index.shtml" class="btn btn-primary">Click to read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center mt-2">
+                    <div class="card">
+                        <img class="img-fluid" src="./images/CAT.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span class="my-2 blog-title-courses">Courses</span>
+                            <h5 class="card-title mt-2">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="./cat/index.shtml" class="btn btn-primary">Click to read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center mt-2">
+                    <div class="card">
+                        <img class="img-fluid" src="./images/CAT.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span class="my-2 blog-title-bschool">Bschool</span>
+                            <h5 class="card-title mt-2">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="./cat/index.shtml" class="btn btn-primary">Click to read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <!-- <div class="card">
+      <div class="card-header">
+        <img src="https://s.aolcdn.com/images/dims?client=fh7w6q744eiognjk&signature=d59d0cf6af1d779a3dca451e0ba259c33bbc6115&image_uri=https%3A%2F%2Fs.aolcdn.com%2Fos%2Fab%2F_cms%2F2019%2F08%2F30142658%2F2020-jeep-wrangler-16.jpg&thumbnail=750%2C422&quality=80" alt="" />
+      </div>
+      <div class="card-body">
+        <span class="tag tag-teal">CAT</span>
+        <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          tenetur distinctio neque?
+        </p>
+        
+        <div class="user">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Outdoors-man-portrait_%28cropped%29.jpg" alt="" />
+          <div class="user-info">
+            <h5>CAT</h5>
+            <small>2h ago</small>
+          </div>
+        </div>
+        <div class="text-center mt-2">
+          <a class="btn btn-primary" href="./cat/index.shtml">Click here to explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <img src="https://s.aolcdn.com/images/dims?client=fh7w6q744eiognjk&signature=d59d0cf6af1d779a3dca451e0ba259c33bbc6115&image_uri=https%3A%2F%2Fs.aolcdn.com%2Fos%2Fab%2F_cms%2F2019%2F08%2F30142658%2F2020-jeep-wrangler-16.jpg&thumbnail=750%2C422&quality=80" alt="" />
+      </div>
+      <div class="card-body">
+        <span class="tag tag-teal">OMETs</span>
+        <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          tenetur distinctio neque?
+        </p>
+        <div class="user">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Outdoors-man-portrait_%28cropped%29.jpg" alt="" />
+          <div class="user-info">
+            <h5>OMETs</h5>
+            <small>2h ago</small>
+          </div>
+        </div>
+        <div class="text-center mt-2">
+          <a class="btn btn-primary" href="./omets/index.shtml">Click here to explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_412,c_fill,g_auto,h_232,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F200305114843-01-edge-hudson-yards-observation-deck.jpg" alt="" />
+      </div>
+      <div class="card-body">
+        <span class="tag tag-pink">Courses</span>
+        <h4>New York City | Layout, People, Economy, Culture, & History</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          consequuntur sequi suscipit iure fuga ea!
+        </p>
+       
+        <div class="user">
+          <img src="https://3.bp.blogspot.com/--sCpJJGYWEA/W2P4C51CYSI/AAAAAAAAQcI/LR4U_--Wf1E3wz7RLZtmwBPObm_ky9tQQCLcBGAs/s1600/beautiful-indian-women-photos-1.jpg" alt="" />
+          <div class="user-info">
+            <h5>Carrie Brewer</h5>
+            <small>23 Dec 2020</small>
+          </div>
+        </div>
+        <div class="text-center mt-2">
+          <a class="btn btn-primary" href="./courses/index.shtml">Click here to explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_412,c_fill,g_auto,h_232,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F200305114843-01-edge-hudson-yards-observation-deck.jpg" alt="" />
+      </div>
+      <div class="card-body">
+        <span class="tag tag-pink">Bschool</span>
+        <h4>New York City | Layout, People, Economy, Culture, & History</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          consequuntur sequi suscipit iure fuga ea!
+        </p>
+       
+        <div class="user">
+          <img src="https://3.bp.blogspot.com/--sCpJJGYWEA/W2P4C51CYSI/AAAAAAAAQcI/LR4U_--Wf1E3wz7RLZtmwBPObm_ky9tQQCLcBGAs/s1600/beautiful-indian-women-photos-1.jpg" alt="" />
+          <div class="user-info">
+            <h5>Carrie Brewer</h5>
+            <small>23 Dec 2020</small>
+          </div>
+        </div>
+        <div class="text-center mt-2">
+          <a class="btn btn-primary" href="./bschool/index.shtml">Click here to explore</a>
+        </div>
+      </div>
+    </div> -->
+  </div>
+
+
+
+
+
+
+    <!-- Suggestion Box for Autocomplete (Optional) -->
+    <div class="suggestion-box" id="suggestion-box"></div>
+
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@2.3.10/dist/purify.min.js"></script>
+
+    <!-- Link to external JavaScript -->
+    <script src="./js/blog.js"></script>
+</body>
+
+</html>
